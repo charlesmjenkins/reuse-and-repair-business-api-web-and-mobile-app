@@ -1,0 +1,47 @@
+/*
+// CS419 - Reuse & Repair Web App
+// ---------------------------------------
+// Charles Jenkins
+// <jenkinch@oregonstate.edu>
+//
+// Billy Kerns
+// <kernsbi@oregonstate.edu>
+//
+// Eric Cruz
+// <cruze@oregonstate.edu>
+//
+// Title: main2.css
+//
+// Description: Additional style rules for
+// web application.
+// ---------------------------------------
+*/
+
+td .truncateItems {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td .truncateHours {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+td .truncateWebsite {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.verticalCenter {
+	vertical-align:middle;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}

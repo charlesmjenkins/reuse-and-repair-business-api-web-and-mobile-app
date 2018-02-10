@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.eric.reuserepair.app.DetailActivity$DetailFragment"
+    tools:showIn="@layout/content_detail"
+    android:orientation="vertical" >
+
+    <!-- Location -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/detail_address"
+        android:drawableLeft="@drawable/ic_home_black_18dp"
+        android:drawablePadding="5dp"
+        android:textColor="#86b300"
+        android:id="@+id/address_title" />
+
+    <ImageView
+        android:id="@+id/static_map_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="150dp"
+        android:contentDescription="@string/google_static_map_desc"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/na"
+        android:typeface="sans"
+        android:id="@+id/address_view" />
+
+    <!-- Phone number -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/detail_phone"
+        android:drawableLeft="@drawable/ic_call_black_18dp"
+        android:drawablePadding="5dp"
+        android:textColor="#86b300"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phone_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/na"
+        android:typeface="sans"
+        android:id="@+id/phone_view" />
+
+    <!-- Website -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/detail_url"
+        android:drawableLeft="@drawable/ic_language_black_18dp"
+        android:drawablePadding="5dp"
+        android:textColor="#86b300"
+        android:layout_marginTop="20dp"
+        android:id="@+id/site_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/na"
+        android:typeface="sans"
+        android:id="@+id/site_view" />
+
+    <!-- Business hours -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/detail_hours"
+        android:drawableLeft="@drawable/ic_alarm_black_18dp"
+        android:drawablePadding="5dp"
+        android:textColor="#86b300"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hours_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/na"
+        android:typeface="sans"
+        android:id="@+id/hours_view" />
+
+    <!-- Repairable? -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/detail_repair"
+        android:drawableLeft="@drawable/ic_build_black_18dp"
+        android:textColor="#86b300"
+        android:layout_marginTop="20dp"
+        android:id="@+id/repair_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/na"
+        android:typeface="sans"
+        android:id="@+id/repair_view" />
+
+</LinearLayout>

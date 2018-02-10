@@ -1,0 +1,88 @@
+/*
+// CS419 - Reuse & Repair Web App
+// ---------------------------------------
+// Charles Jenkins
+// <jenkinch@oregonstate.edu>
+//
+// Billy Kerns
+// <kernsbi@oregonstate.edu>
+//
+// Eric Cruz
+// <cruze@oregonstate.edu>
+//
+// Title: signin.css
+//
+// Description: Style rules for login page.
+// ---------------------------------------
+// Acknowledgement: https://getbootstrap.com/examples/signin/signin.css
+*/
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+img {
+  margin-left: -15px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin #password1 {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin #password2Again {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#password1, #username2, #password2, #password2Again  {
+  border-top: 0px;
+}
+
+.loginBtn {
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -15px;
+  color: #f89520;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#status1, #status2 {
+	margin-top: 10px;
+	margin-bottom: -21px;
+	text-align: center;
+}

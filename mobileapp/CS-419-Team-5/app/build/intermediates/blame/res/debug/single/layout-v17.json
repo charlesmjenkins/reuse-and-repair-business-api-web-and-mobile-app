@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/C:\\Users\\Billy Kerns\\AndroidStudioProjects\\CS-419-Team-5\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/C:\\Users\\Billy Kerns\\AndroidStudioProjects\\CS-419-Team-5\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout-v17\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/app/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
+        "source": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout-v17/mr_media_route_list_item.xml"
+    }
+]

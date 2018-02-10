@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Corvallis Reuse and Repair Directory</string>
+    <string name="action_settings">About</string>
+    <string name="title_activity_item">Items</string>
+    <string name="title_activity_business">Businesses</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="detail_address">Location</string>
+    <string name="detail_phone">Call</string>
+    <string name="detail_url">Website</string>
+    <string name="detail_hours">Hours</string>
+    <string name="detail_repair">Performs Repairs?</string>
+    <string name="google_static_map_desc">Image of static Google Map of this location</string>
+    <string name="na">n/a</string>
+</resources>

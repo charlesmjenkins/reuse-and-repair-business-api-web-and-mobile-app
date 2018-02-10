@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/C:\\Users\\Billy Kerns\\AndroidStudioProjects\\CS-419-Team-5\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/C:\\Users\\Billy Kerns\\AndroidStudioProjects\\CS-419-Team-5\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/Users/cj/Desktop/0-github-portfolio/reuse/mobileapp/CS-419-Team-5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout-v21/place_autocomplete_fragment.xml"
+    }
+]
